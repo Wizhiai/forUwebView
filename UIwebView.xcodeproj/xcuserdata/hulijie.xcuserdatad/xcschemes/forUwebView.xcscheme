@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2C577B871BB4F180000C366B"
-               BuildableName = "forUwebView.app"
-               BlueprintName = "forUwebView"
-               ReferencedContainer = "container:forUwebView.xcodeproj">
+               BuildableName = "UIwebView.app"
+               BlueprintName = "UIwebView"
+               ReferencedContainer = "container:UIwebView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2C577BA01BB4F180000C366B"
-               BuildableName = "forUwebViewTests.xctest"
-               BlueprintName = "forUwebViewTests"
-               ReferencedContainer = "container:forUwebView.xcodeproj">
+               BuildableName = "UIwebView.xctest"
+               BlueprintName = "UIwebViewTests"
+               ReferencedContainer = "container:UIwebView.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2C577BAB1BB4F180000C366B"
-               BuildableName = "forUwebViewUITests.xctest"
-               BlueprintName = "forUwebViewUITests"
-               ReferencedContainer = "container:forUwebView.xcodeproj">
+               BuildableName = "UIwebView.xctest"
+               BlueprintName = "UIwebViewUITests"
+               ReferencedContainer = "container:UIwebView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2C577B871BB4F180000C366B"
-            BuildableName = "forUwebView.app"
-            BlueprintName = "forUwebView"
-            ReferencedContainer = "container:forUwebView.xcodeproj">
+            BuildableName = "UIwebView.app"
+            BlueprintName = "UIwebView"
+            ReferencedContainer = "container:UIwebView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2C577B871BB4F180000C366B"
-            BuildableName = "forUwebView.app"
-            BlueprintName = "forUwebView"
-            ReferencedContainer = "container:forUwebView.xcodeproj">
+            BuildableName = "UIwebView.app"
+            BlueprintName = "UIwebView"
+            ReferencedContainer = "container:UIwebView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2C577B871BB4F180000C366B"
-            BuildableName = "forUwebView.app"
-            BlueprintName = "forUwebView"
-            ReferencedContainer = "container:forUwebView.xcodeproj">
+            BuildableName = "UIwebView.app"
+            BlueprintName = "UIwebView"
+            ReferencedContainer = "container:UIwebView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

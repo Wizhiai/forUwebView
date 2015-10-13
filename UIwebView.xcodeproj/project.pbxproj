@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1B3B991BC60F7400784328 /* News_Navigation_Arrow_Highlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1B3B951BC60F7400784328 /* News_Navigation_Arrow_Highlight@3x.png */; };
+		2C1B3B9A1BC60F7400784328 /* News_Navigation_Comment_Highlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1B3B961BC60F7400784328 /* News_Navigation_Comment_Highlight@3x.png */; };
+		2C1B3B9B1BC60F7400784328 /* News_Navigation_Next_Highlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1B3B971BC60F7400784328 /* News_Navigation_Next_Highlight@3x.png */; };
+		2C1B3B9C1BC60F7400784328 /* News_Navigation_Share_Highlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1B3B981BC60F7400784328 /* News_Navigation_Share_Highlight@3x.png */; };
+		2C1B3B9F1BC6111100784328 /* News_Fav_Highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1B3B9D1BC6111100784328 /* News_Fav_Highlight@2x.png */; };
+		2C1B3BA01BC6111100784328 /* News_Faved@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1B3B9E1BC6111100784328 /* News_Faved@2x.png */; };
+		2C1B3BA31BC63D7A00784328 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B3BA21BC63D7A00784328 /* SVProgressHUD.m */; };
 		2C577B8D1BB4F180000C366B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C577B8C1BB4F180000C366B /* main.m */; };
 		2C577B901BB4F180000C366B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C577B8F1BB4F180000C366B /* AppDelegate.m */; };
 		2C577B931BB4F180000C366B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C577B921BB4F180000C366B /* ViewController.m */; };
@@ -35,7 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C577B881BB4F180000C366B /* forUwebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = forUwebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C1B3B951BC60F7400784328 /* News_Navigation_Arrow_Highlight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "News_Navigation_Arrow_Highlight@3x.png"; sourceTree = "<group>"; };
+		2C1B3B961BC60F7400784328 /* News_Navigation_Comment_Highlight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "News_Navigation_Comment_Highlight@3x.png"; sourceTree = "<group>"; };
+		2C1B3B971BC60F7400784328 /* News_Navigation_Next_Highlight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "News_Navigation_Next_Highlight@3x.png"; sourceTree = "<group>"; };
+		2C1B3B981BC60F7400784328 /* News_Navigation_Share_Highlight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "News_Navigation_Share_Highlight@3x.png"; sourceTree = "<group>"; };
+		2C1B3B9D1BC6111100784328 /* News_Fav_Highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "News_Fav_Highlight@2x.png"; sourceTree = "<group>"; };
+		2C1B3B9E1BC6111100784328 /* News_Faved@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "News_Faved@2x.png"; sourceTree = "<group>"; };
+		2C1B3BA11BC63D7A00784328 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		2C1B3BA21BC63D7A00784328 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		2C577B881BB4F180000C366B /* UIwebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIwebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C577B8C1BB4F180000C366B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C577B8E1BB4F180000C366B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2C577B8F1BB4F180000C366B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,10 +60,10 @@
 		2C577B971BB4F180000C366B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C577B9A1BB4F180000C366B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C577B9C1BB4F180000C366B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C577BA11BB4F180000C366B /* forUwebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = forUwebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C577BA11BB4F180000C366B /* UIwebView.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIwebView.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C577BA51BB4F180000C366B /* forUwebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = forUwebViewTests.m; sourceTree = "<group>"; };
 		2C577BA71BB4F180000C366B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C577BAC1BB4F180000C366B /* forUwebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = forUwebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C577BAC1BB4F180000C366B /* UIwebView.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIwebView.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C577BB01BB4F180000C366B /* forUwebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = forUwebViewUITests.m; sourceTree = "<group>"; };
 		2C577BB21BB4F180000C366B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,9 +106,9 @@
 		2C577B891BB4F180000C366B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C577B881BB4F180000C366B /* forUwebView.app */,
-				2C577BA11BB4F180000C366B /* forUwebViewTests.xctest */,
-				2C577BAC1BB4F180000C366B /* forUwebViewUITests.xctest */,
+				2C577B881BB4F180000C366B /* UIwebView.app */,
+				2C577BA11BB4F180000C366B /* UIwebView.xctest */,
+				2C577BAC1BB4F180000C366B /* UIwebView.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +116,7 @@
 		2C577B8A1BB4F180000C366B /* forUwebView */ = {
 			isa = PBXGroup;
 			children = (
+				2C6539A51BCAB556008DEBFC /* Comment(评论) */,
 				2C577B8E1BB4F180000C366B /* AppDelegate.h */,
 				2C577B8F1BB4F180000C366B /* AppDelegate.m */,
 				2C577B911BB4F180000C366B /* ViewController.h */,
@@ -117,6 +133,14 @@
 		2C577B8B1BB4F180000C366B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2C1B3BA11BC63D7A00784328 /* SVProgressHUD.h */,
+				2C1B3BA21BC63D7A00784328 /* SVProgressHUD.m */,
+				2C1B3B9D1BC6111100784328 /* News_Fav_Highlight@2x.png */,
+				2C1B3B9E1BC6111100784328 /* News_Faved@2x.png */,
+				2C1B3B951BC60F7400784328 /* News_Navigation_Arrow_Highlight@3x.png */,
+				2C1B3B961BC60F7400784328 /* News_Navigation_Comment_Highlight@3x.png */,
+				2C1B3B971BC60F7400784328 /* News_Navigation_Next_Highlight@3x.png */,
+				2C1B3B981BC60F7400784328 /* News_Navigation_Share_Highlight@3x.png */,
 				2C577B8C1BB4F180000C366B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,12 +164,43 @@
 			path = forUwebViewUITests;
 			sourceTree = "<group>";
 		};
+		2C6539A51BCAB556008DEBFC /* Comment(评论) */ = {
+			isa = PBXGroup;
+			children = (
+				2C6539A81BCAB60D008DEBFC /* Model */,
+				2C6539A71BCAB602008DEBFC /* View */,
+				2C6539A61BCAB5F1008DEBFC /* Controller */,
+			);
+			name = "Comment(评论)";
+			sourceTree = "<group>";
+		};
+		2C6539A61BCAB5F1008DEBFC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2C6539A71BCAB602008DEBFC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2C6539A81BCAB60D008DEBFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C577B871BB4F180000C366B /* forUwebView */ = {
+		2C577B871BB4F180000C366B /* UIwebView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C577BB51BB4F180000C366B /* Build configuration list for PBXNativeTarget "forUwebView" */;
+			buildConfigurationList = 2C577BB51BB4F180000C366B /* Build configuration list for PBXNativeTarget "UIwebView" */;
 			buildPhases = (
 				2C577B841BB4F180000C366B /* Sources */,
 				2C577B851BB4F180000C366B /* Frameworks */,
@@ -155,14 +210,14 @@
 			);
 			dependencies = (
 			);
-			name = forUwebView;
+			name = UIwebView;
 			productName = forUwebView;
-			productReference = 2C577B881BB4F180000C366B /* forUwebView.app */;
+			productReference = 2C577B881BB4F180000C366B /* UIwebView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2C577BA01BB4F180000C366B /* forUwebViewTests */ = {
+		2C577BA01BB4F180000C366B /* UIwebViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C577BB81BB4F180000C366B /* Build configuration list for PBXNativeTarget "forUwebViewTests" */;
+			buildConfigurationList = 2C577BB81BB4F180000C366B /* Build configuration list for PBXNativeTarget "UIwebViewTests" */;
 			buildPhases = (
 				2C577B9D1BB4F180000C366B /* Sources */,
 				2C577B9E1BB4F180000C366B /* Frameworks */,
@@ -173,14 +228,14 @@
 			dependencies = (
 				2C577BA31BB4F180000C366B /* PBXTargetDependency */,
 			);
-			name = forUwebViewTests;
+			name = UIwebViewTests;
 			productName = forUwebViewTests;
-			productReference = 2C577BA11BB4F180000C366B /* forUwebViewTests.xctest */;
+			productReference = 2C577BA11BB4F180000C366B /* UIwebView.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2C577BAB1BB4F180000C366B /* forUwebViewUITests */ = {
+		2C577BAB1BB4F180000C366B /* UIwebViewUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C577BBB1BB4F180000C366B /* Build configuration list for PBXNativeTarget "forUwebViewUITests" */;
+			buildConfigurationList = 2C577BBB1BB4F180000C366B /* Build configuration list for PBXNativeTarget "UIwebViewUITests" */;
 			buildPhases = (
 				2C577BA81BB4F180000C366B /* Sources */,
 				2C577BA91BB4F180000C366B /* Frameworks */,
@@ -191,9 +246,9 @@
 			dependencies = (
 				2C577BAE1BB4F180000C366B /* PBXTargetDependency */,
 			);
-			name = forUwebViewUITests;
+			name = UIwebViewUITests;
 			productName = forUwebViewUITests;
-			productReference = 2C577BAC1BB4F180000C366B /* forUwebViewUITests.xctest */;
+			productReference = 2C577BAC1BB4F180000C366B /* UIwebView.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -218,22 +273,23 @@
 					};
 				};
 			};
-			buildConfigurationList = 2C577B831BB4F17F000C366B /* Build configuration list for PBXProject "forUwebView" */;
+			buildConfigurationList = 2C577B831BB4F17F000C366B /* Build configuration list for PBXProject "UIwebView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 2C577B7F1BB4F17F000C366B;
 			productRefGroup = 2C577B891BB4F180000C366B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C577B871BB4F180000C366B /* forUwebView */,
-				2C577BA01BB4F180000C366B /* forUwebViewTests */,
-				2C577BAB1BB4F180000C366B /* forUwebViewUITests */,
+				2C577B871BB4F180000C366B /* UIwebView */,
+				2C577BA01BB4F180000C366B /* UIwebViewTests */,
+				2C577BAB1BB4F180000C366B /* UIwebViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,7 +299,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1B3B9A1BC60F7400784328 /* News_Navigation_Comment_Highlight@3x.png in Resources */,
 				2C577B9B1BB4F180000C366B /* LaunchScreen.storyboard in Resources */,
+				2C1B3B9B1BC60F7400784328 /* News_Navigation_Next_Highlight@3x.png in Resources */,
+				2C1B3B9C1BC60F7400784328 /* News_Navigation_Share_Highlight@3x.png in Resources */,
+				2C1B3B9F1BC6111100784328 /* News_Fav_Highlight@2x.png in Resources */,
+				2C1B3BA01BC6111100784328 /* News_Faved@2x.png in Resources */,
+				2C1B3B991BC60F7400784328 /* News_Navigation_Arrow_Highlight@3x.png in Resources */,
 				2C577B981BB4F180000C366B /* Assets.xcassets in Resources */,
 				2C577B961BB4F180000C366B /* Main.storyboard in Resources */,
 			);
@@ -272,6 +334,7 @@
 			files = (
 				2C577B931BB4F180000C366B /* ViewController.m in Sources */,
 				2C577B901BB4F180000C366B /* AppDelegate.m in Sources */,
+				2C1B3BA31BC63D7A00784328 /* SVProgressHUD.m in Sources */,
 				2C577B8D1BB4F180000C366B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,12 +360,12 @@
 /* Begin PBXTargetDependency section */
 		2C577BA31BB4F180000C366B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2C577B871BB4F180000C366B /* forUwebView */;
+			target = 2C577B871BB4F180000C366B /* UIwebView */;
 			targetProxy = 2C577BA21BB4F180000C366B /* PBXContainerItemProxy */;
 		};
 		2C577BAE1BB4F180000C366B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2C577B871BB4F180000C366B /* forUwebView */;
+			target = 2C577B871BB4F180000C366B /* UIwebView */;
 			targetProxy = 2C577BAD1BB4F180000C366B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -411,10 +474,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareSDK/Connection",
+					"$(PROJECT_DIR)/ShareSDK/Core",
+					"$(PROJECT_DIR)/ShareSDK/Extend/QQConnectSDK",
+					"$(PROJECT_DIR)/ShareSDK/Extend/RenRenSDK",
+					"$(PROJECT_DIR)/ShareSDK",
+					"$(PROJECT_DIR)/ShareSDK/UI",
+				);
 				INFOPLIST_FILE = forUwebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lijiehu.testdemo.forUwebView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareSDK/Extend/APSocialSDK",
+					"$(PROJECT_DIR)/ShareSDK/Extend/SinaWeiboSDK",
+					"$(PROJECT_DIR)/ShareSDK/Extend/WeChatSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = forUwebView;
+				PRODUCT_NAME = UIwebView;
 			};
 			name = Debug;
 		};
@@ -422,10 +502,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareSDK/Connection",
+					"$(PROJECT_DIR)/ShareSDK/Core",
+					"$(PROJECT_DIR)/ShareSDK/Extend/QQConnectSDK",
+					"$(PROJECT_DIR)/ShareSDK/Extend/RenRenSDK",
+					"$(PROJECT_DIR)/ShareSDK",
+					"$(PROJECT_DIR)/ShareSDK/UI",
+				);
 				INFOPLIST_FILE = forUwebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lijiehu.testdemo.forUwebView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareSDK/Extend/APSocialSDK",
+					"$(PROJECT_DIR)/ShareSDK/Extend/SinaWeiboSDK",
+					"$(PROJECT_DIR)/ShareSDK/Extend/WeChatSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = forUwebView;
+				PRODUCT_NAME = UIwebView;
 			};
 			name = Release;
 		};
@@ -436,8 +533,8 @@
 				INFOPLIST_FILE = forUwebViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lijiehu.testdemo.forUwebViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/forUwebView.app/forUwebView";
+				PRODUCT_NAME = UIwebView;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIwebView.app/UIwebView";
 			};
 			name = Debug;
 		};
@@ -448,8 +545,8 @@
 				INFOPLIST_FILE = forUwebViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lijiehu.testdemo.forUwebViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/forUwebView.app/forUwebView";
+				PRODUCT_NAME = UIwebView;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIwebView.app/UIwebView";
 			};
 			name = Release;
 		};
@@ -459,7 +556,7 @@
 				INFOPLIST_FILE = forUwebViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lijiehu.testdemo.forUwebViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = UIwebView;
 				TEST_TARGET_NAME = forUwebView;
 				USES_XCTRUNNER = YES;
 			};
@@ -471,7 +568,7 @@
 				INFOPLIST_FILE = forUwebViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lijiehu.testdemo.forUwebViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = UIwebView;
 				TEST_TARGET_NAME = forUwebView;
 				USES_XCTRUNNER = YES;
 			};
@@ -480,7 +577,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C577B831BB4F17F000C366B /* Build configuration list for PBXProject "forUwebView" */ = {
+		2C577B831BB4F17F000C366B /* Build configuration list for PBXProject "UIwebView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C577BB31BB4F180000C366B /* Debug */,
@@ -489,29 +586,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C577BB51BB4F180000C366B /* Build configuration list for PBXNativeTarget "forUwebView" */ = {
+		2C577BB51BB4F180000C366B /* Build configuration list for PBXNativeTarget "UIwebView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C577BB61BB4F180000C366B /* Debug */,
 				2C577BB71BB4F180000C366B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		2C577BB81BB4F180000C366B /* Build configuration list for PBXNativeTarget "forUwebViewTests" */ = {
+		2C577BB81BB4F180000C366B /* Build configuration list for PBXNativeTarget "UIwebViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C577BB91BB4F180000C366B /* Debug */,
 				2C577BBA1BB4F180000C366B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		2C577BBB1BB4F180000C366B /* Build configuration list for PBXNativeTarget "forUwebViewUITests" */ = {
+		2C577BBB1BB4F180000C366B /* Build configuration list for PBXNativeTarget "UIwebViewUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C577BBC1BB4F180000C366B /* Debug */,
 				2C577BBD1BB4F180000C366B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
